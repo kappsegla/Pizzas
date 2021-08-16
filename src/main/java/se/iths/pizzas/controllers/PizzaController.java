@@ -20,6 +20,4 @@ public class PizzaController {
     public List<Pizza> pizzas() {
         return pizzaRepository.findAll();
     }
-
-
 }
