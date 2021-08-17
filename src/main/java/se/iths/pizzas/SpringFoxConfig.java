@@ -10,8 +10,6 @@ import springfox.documentation.spring.web.plugins.Docket;
 
 @Configuration
 public class SpringFoxConfig {
-
-
     //Url to api documentation :  v3/api-docs
     //Swagger-ui : /swagger-ui/
     @Bean

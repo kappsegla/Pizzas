@@ -16,7 +16,7 @@ public class PizzasApplication {
 
 
     @Bean
-    public CommandLineRunner init(PizzaRepository pizzaRepository){
+    public static CommandLineRunner init(PizzaRepository pizzaRepository){
         return args -> {
             if( pizzaRepository.count() == 0) {
                 pizzaRepository.save(new Pizza(0L,"Hawaii",80,"Ost,Tomatsås,Skinka,Ananas"));
